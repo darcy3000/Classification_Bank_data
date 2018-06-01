@@ -1,0 +1,14 @@
+*****************Backpropogation neural network********************
+
+Team members :
+2015A7PS0062H-Surya Rao
+2015A7PS0080H-Navneet Kumar
+2015A7PS0111J-Abhijeet Bajaj
+
+We have dropped all the categorical values as they are not numeric and cannot be use in calculating gradient.
+Accuracy on test data is roughly 80% after 4000 epochs.Test data size is 30%
+Answers
+A)All the features which have numeric entries are taking while creating the model because we can calculate gradient of floaing values not strings
+B)Accuracy is ~80%
+C)Activation function used is sigmoid because it differentiable everywhere
+D)I have used 4 hidden layers and 100 units per layer.I have reached this number after experimenting and to avoid overfitting 
